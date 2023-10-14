@@ -8,7 +8,7 @@ RSpec.describe 'landing page', type: :feature do
 
     visit root_path
 
-    expect(page).to have_content('Viewing Party Lite')
+    expect(page).to have_content('Viewing Party!')
     expect(page).to have_button('New User')
 
     expect(page).to have_link('Landing Page')
